@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component //scan 대상
 public class AnotherBean {
 	
-	String name ="홍길동";
+	String name ="이영애";
 
 	public String getName() {
 		return name;
