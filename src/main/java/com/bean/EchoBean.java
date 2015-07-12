@@ -17,6 +17,7 @@ public class EchoBean {
 	@Autowired //자동으로 AnotherBean을 찾아서 주입된다. 사용할 수 있는 곳은 생성자 변수 setter
 	@Qualifier(value="anotherBean") //동일한 타입이 여러개인 경우에 명시적으로 지정 
 	public void setAnother(AnotherBean another) {
+		System.out.println("another setter");
 		this.another = another;
 	}
 
