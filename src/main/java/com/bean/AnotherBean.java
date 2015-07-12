@@ -14,6 +14,7 @@ public class AnotherBean {
 	}
 
 	public void setName(String name) {
+		System.out.println("anotherBean");
 		this.name = name;
 	}
 
